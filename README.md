@@ -128,9 +128,9 @@ $ pip3 install pandas
 $ pip3 install awscli
 ```
 
-Open dl_stedi.ipynb: <a href="https://github.com/vananh0905/AWS-pj3-stedi.git/blob/main/stedi.ipynb">NoteBook</a>
+Open stedi.ipynb: <a href="https://github.com/vananh0905/AWS-pj3-stedi/blob/master/stedi.ipynb">NoteBook</a>
 
 Run code follow by markdown
 
 
-Using SQL Scripts: <a href="https://github.com/vananh0905/AWS-pj3-stedi.git/tree/main/sql_script">SQL Scripts</a>
+Using SQL Scripts: <a href="https://github.com/vananh0905/AWS-pj3-stedi/tree/master/sql_script">SQL Scripts</a>
