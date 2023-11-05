@@ -85,9 +85,13 @@ To simulate the data coming from the various sources, you will need to create yo
 
 Customer Landing
 <img src="./images/customer_landing.png">
+Count the number of Customer Landing
+<img src="./images/customer_landing_count.png">
 
 Accelerometer Landing
 <img src="./images/accelerometer_landing.png">
+Count the number of Accelerometer Landing
+<img src="./images/accelerometer_landing_count.png">
 
 The Data Science team has done some preliminary data analysis and determined that the Accelerometer Records each match one of the Customer Records. They would like you to create 2 AWS Glue Jobs that do the following:
 
