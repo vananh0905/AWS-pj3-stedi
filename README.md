@@ -83,13 +83,9 @@ To simulate the data coming from the various sources, you will need to create yo
 - You have decided you want to get a feel for the data you are dealing with in a semi-structured format, so you decide to create two Glue tables for the two landing zones. Share your customer_landing.sql and your accelerometer_landing.sql script in git.
 - Query those tables using Athena, and take a screenshot of each one showing the resulting data. Name the screenshots customer_landing(.png,.jpeg, etc.) and accelerometer_landing(.png,.jpeg, etc.).
 
-Customer Landing
-<img src="./images/customer_landing_detail.png">
 Count the number of Customer Landing
 <img src="./images/customer_landing.png">
 
-Accelerometer Landing
-<img src="./images/accelerometer_landing_detail.png">
 Count the number of Accelerometer Landing
 <img src="./images/accelerometer_landing.png">
 
@@ -101,9 +97,6 @@ The Data Science team has done some preliminary data analysis and determined tha
 
 3. You need to verify your Glue job is successful and only contains Customer Records from people who agreed to share their data. Query your Glue customer_trusted table with Athena and take a screenshot of the data. Name the screenshot customer_trusted(.png,.jpeg, etc.).
 
-
-Customer Trusted
-<img src="./images/customer_trusted.png">
 
 Data Scientists have discovered a data quality issue with the Customer Data. The serial number should be a unique identifier for the STEDI Step Trainer they purchased. However, there was a defect in the fulfillment website, and it used the same 30 serial numbers over and over again for millions of customers! Most customers have not received their Step Trainers yet, but those who have, are submitting Step Trainer data over the IoT network (Landing Zone). The data from the Step Trainer Records has the correct serial numbers.
 
