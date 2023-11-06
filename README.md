@@ -84,14 +84,14 @@ To simulate the data coming from the various sources, you will need to create yo
 - Query those tables using Athena, and take a screenshot of each one showing the resulting data. Name the screenshots customer_landing(.png,.jpeg, etc.) and accelerometer_landing(.png,.jpeg, etc.).
 
 Customer Landing
-<img src="./images/customer_landing.png">
+<img src="./images/customer_landing_detail.png">
 Count the number of Customer Landing
-<img src="./images/customer_landing_count.png">
+<img src="./images/customer_landing.png">
 
 Accelerometer Landing
-<img src="./images/accelerometer_landing.png">
+<img src="./images/accelerometer_landing_detail.png">
 Count the number of Accelerometer Landing
-<img src="./images/accelerometer_landing_count.png">
+<img src="./images/accelerometer_landing.png">
 
 The Data Science team has done some preliminary data analysis and determined that the Accelerometer Records each match one of the Customer Records. They would like you to create 2 AWS Glue Jobs that do the following:
 
